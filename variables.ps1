@@ -36,19 +36,9 @@ $age = 23
 # You can display the value of a variable to the console buy simply typeing the variable name.
 [int]$age = 37
 $age
-# If you want to write text to the console in a flexiable way use the Write-Host cmdlet.
+# If you want to write text to the console in a flexible way use the Write-Host cmdlet.
 Write-Host "It's my birthday and i'm " $age
-#Global variables can be used to allow access to them across your script#Player position
+# Global variables can be used to allow access to them across your script#Player position
 [int]$global:xPosition = 4
 [int]$global:yPosition = 3
 $global:xPosition
-
-Excerpt from
-Learn PowerShell 7 Through Hands-On Mini Games
-Ian Waters
-This material may be protected by copyright.
-
-Excerpt from
-Learn PowerShell 7 Through Hands-On Mini Games
-Ian Waters
-This material may be protected by copyright.
